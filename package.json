@@ -4,6 +4,7 @@
   "scripts": {
     "test": "jest"
   },
+  "bin": "bin/index.js",
   "main": "index.js",
   "repository": "git@github.com:AmyFoxFN/utils.git",
   "author": "AmyFoxFN <funanamy@gmail.com>",
