@@ -1,15 +1,18 @@
 {
   "name": "utils",
   "version": "1.0.0",
+  "scripts": {
+    "test": "jest"
+  },
   "main": "index.js",
   "repository": "git@github.com:AmyFoxFN/utils.git",
   "author": "AmyFoxFN <funanamy@gmail.com>",
   "license": "MIT",
   "private": false,
   "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "babel-jest": "^26.0.1",
     "jest": "^26.0.1"
-  },
-  "scripts": {
-    "test": "jest"
   }
 }
