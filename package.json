@@ -1,19 +1,9 @@
 {
   "name": "utils",
-  "version": "0.1.0",
-  "description": "",
+  "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AmyFoxFN/utils.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/AmyFoxFN/utils/issues"
-  },
-  "homepage": "https://github.com/AmyFoxFN/utils#readme"
+  "repository": "git@github.com:AmyFoxFN/utils.git",
+  "author": "AmyFoxFN <funanamy@gmail.com>",
+  "license": "MIT",
+  "private": false
 }
