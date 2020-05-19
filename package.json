@@ -5,5 +5,8 @@
   "repository": "git@github.com:AmyFoxFN/utils.git",
   "author": "AmyFoxFN <funanamy@gmail.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
 }
