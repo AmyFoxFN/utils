@@ -15,6 +15,7 @@ test('run well', (done) => {
   }, 1000)
 
   frequentMark.observe((averageDuration) => {
+    console.log('averageDuration', averageDuration)
     expect(averageDuration).toBeGreaterThan(0)
     done()
   })
