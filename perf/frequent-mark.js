@@ -1,7 +1,7 @@
 /**
  * 
  */
-export default class FrequentMark {
+export class FrequentMark {
   static _STOP_THRESHOLD = 200
   _observer = null
   _records = []
