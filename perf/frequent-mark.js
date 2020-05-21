@@ -19,8 +19,19 @@ export class FrequentMark {
 
   _stop() {
     const sum = this._records.reduce((sum, item) => sum + item, 0)
-    const averageDuration = sum / this._records.length
-    this._observer && this._observer(averageDuration)
+    const average = sum / this._records.length
+    const varianceSum = this._records.reduce((varianceSum, item) => varianceSum + Math.pow(item - average, 2), 0)
+    const variance = varianceSum / this._records.length - 1
+    const max = Math.max.apply(this, this._records)
+    const min = Math.min.apply(this, this._records)
+
+    this._observer && this._observer({
+      average,
+      variance,
+      max,
+      min
+    })
+    this._records = []
   }
 
   end() {
